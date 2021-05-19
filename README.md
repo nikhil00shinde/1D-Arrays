@@ -6,3 +6,4 @@
 4. Sum of 2 Arrays
 5. Difference of 2 Arrays
 6. Reverese an Array
+7. Rotate an Array
