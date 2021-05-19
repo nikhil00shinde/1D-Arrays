@@ -17,7 +17,8 @@ public class RotateAnArray
 
         // firstApproach(arr,r);
         // secondApproach(arr,r);
-        print(arr);
+        thirdApproach(arr,r);
+        // print(arr);
     }
     public static void firstApproach(int[]arr,int r)
     {
@@ -70,5 +71,28 @@ public class RotateAnArray
             arr[0] = k;
         } 
         print(arr);
+    }
+    public static void thirdApproach(int[] arr,int r)
+    {
+        // in the third approach we can create 2nd array of same size that is
+        // but the space complexity will be O(n)
+       int n = arr.length;
+       int[] temp = new int[n];
+      
+      // 0 to r
+       int j = 0;
+       for(int i=n-r;i<n;i++)
+       {
+          temp[j] = arr[i];
+          j++;
+       }
+
+       //r to n
+       for(int i=0;i<n-r;i++)
+       {
+           temp[j] = arr[i];
+           j++;
+       }
+       print(temp);
     }
 }
