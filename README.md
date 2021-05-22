@@ -8,3 +8,4 @@
 6. Reverese an Array
 7. Rotate an Array
 8. Inverse of Array
+9. Sub Array 
