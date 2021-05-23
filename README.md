@@ -9,3 +9,4 @@
 7. Rotate an Array
 8. Inverse of Array
 9. Sub Array 
+10. Subset of Array
