@@ -13,3 +13,4 @@
 11. Binary Search
 12. Denomination
 13. First And Last Index
+14. Kadane's Algorithm
